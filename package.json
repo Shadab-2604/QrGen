@@ -1,0 +1,27 @@
+{
+  "name": "qrgen",
+  "version": "1.0.0",
+  "description": "QR Code Generator with Analytics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["qr-code", "analytics", "node"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^6.9.0",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "geoip-lite": "^1.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
